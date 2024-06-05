@@ -2,11 +2,11 @@
 
 <img src="https://media.icml.cc/Conferences/CVPR2024/img/homepage_image.jpg" style="width:33%;">
 
-Hi there! I'm Yuhang, and I'm thrilled to announce that I will be attending CVPR 2024 and giving a poster presentation on the morning of 20th June. 
+Hi there! I'm Yuhang, and I'm thrilled to announce that **I will be attending CVPR 2024 and giving a poster presentation** on the morning of 20th June. [Click here to see the CVPR2024 FL Poster Schedule](#cvpr2024-fl-poster-schedule)
 
 The first paper on the following list is the one I'll be presenting. I am really looking forward to discussing our work and exchanging ideas with all of you! 
 
-Feel free to reach out to me via email or WeChat if you'd like to connect before or during the conference. I can't wait to meet you and explore exciting collaborations! 
+**Feel free to reach out to me via email or WeChat** if you'd like to connect before or during the conference. I can't wait to meet you and explore exciting collaborations! 
 
 Email: yhchen0@whu.edu.cn
 
@@ -329,3 +329,59 @@ WeChat:
       While federated learning (FL) systems often utilize quantization to battle communication and computational bottlenecks, they have heretofore been limited to deploying fixed-precision quantization schemes. Meanwhile, the concept of mixed-precision quantization (MPQ), where different layers of a deep learning model are assigned varying bit-width, remains unexplored in the FL settings. We present a novel FL algorithm, FedMPQ, which introduces mixed-precision quantization to resource-heterogeneous FL systems. Specifically, local models, quantized so as to satisfy bit-width constraint, are trained by optimizing an objective function that includes a regularization term which promotes reduction of precision in some of the layers without significant performance degradation. The server collects local model updates, de-quantizes them into full-precision models, and then aggregates them into a global model. To initialize the next round of local training, the server relies on the information learned in the previous training round to customize bit-width assignments of the models delivered to different clients. In extensive benchmarking experiments on several model architectures and different datasets in both iid and non-iid settings, FedMPQ outperformed the baseline FL schemes that utilize fixed-precision quantization while incurring only a minor computational overhead on the participating devices.
   </details>
   
+
+
+
+## CVPR2024 FL Poster Schedule
+
+#### 6.19 PM
+
+| Paper ID | Paper Title                                                  |
+| -------- | ------------------------------------------------------------ |
+| 4722     | FedHCA$^2$: Towards Hetero-Client Federated Multi-Task  Learning |
+| 10342    | FedUV: Uniformity and Variance for Heterogeneous  Federated Learning |
+| 14579    | Efficiently Assemble Normalization Layers and  Regularization for Federated Domain Generalization |
+| 15929    | Unlocking the Potential of Prompt-Tuning in Bridging  Generalized and Personalized Federated Learning |
+| 17278    | Mixed-Precision Quantization for Federated Learning on  Resource-Constrained Heterogeneous Devices |
+
+#### 6.20 AM
+
+| Paper ID | Paper Title                                                  |
+| -------- | ------------------------------------------------------------ |
+| 1898     | FedSOL: Stabilized Orthogonal Learning with Proximal  Restrictions in Federated Learning |
+| 2006     | FedAS: Bridging Inconsistency in Personalized  Federated Learning |
+| 3595     | Data Valuation and Detections in Federated Learning          |
+| 4377     | Fair Federated Learning under Domain Skew with Local  Consistency and Domain Diversity |
+| 4992     | FLHetBench: Benchmarking Device and State  Heterogeneity in Federated Learning |
+| 5850     | An Upload-Efficient Scheme for Transferring Knowledge  From a Server-Side Pre-trained Generator to Clients in Heterogeneous  Federated Learning |
+| 6502     | Think Twice Before Selection: Federated Evidential  Active Learning for Medical Image Analysis with Domain Shifts |
+| 6869     | Global and Local Prompts Cooperation via Optimal  Transport for Federated Learning |
+| 8638     | Leak and Learn: An Attacker's Cookbook to Train Using  Leaked Data from Federated Learning |
+| 9311     | Relaxed Contrastive Learning for Federated Learning          |
+| 11497    | Adaptive Hyper-graph Aggregation for Modality-Agnostic  Federated Learning |
+| 13071    | Device-Wise Federated Network Pruning                        |
+| 13797    | Towards Efficient Replay in Federated Incremental  Learning  |
+| 14237    | Communication-Efficient Federated Learning with  Accelerated Client Gradient |
+| 15265    | Traceable Federated Continual Learning                       |
+
+#### 6.21 AM
+
+| Paper ID | Paper Title                                                  |
+| -------- | ------------------------------------------------------------ |
+| 2768     | Federated Online Adaptation for Deep Stereo                  |
+| 2987     | Rethinking the Representation in Federated  Unsupervised Learning with Non-IID Data |
+| 13579    | Directed Decentralized Collaboration for Personalized  Federated Learning |
+| 13614    | PerAda: Parameter-Efficient Federated Learning  Personalization with Generalization Guarantees |
+| 14025    | Text-Enhanced Data-free Approach for Federated  Class-Incremental Learning |
+| 15081    | FedSelect: Personalized Federated Learning with  Customized Selection of Parameters for Fine-Tuning |
+
+#### 6.21 PM
+
+| Paper ID | Paper Title                                                  |
+| -------- | ------------------------------------------------------------ |
+| 4916     | Federated Generalized Category Discovery                     |
+| 6841     | Revamping Federated Learning Security from a  Defender's Perspective: A Unified Defense with Homomorphic Encrypted Data  Space |
+| 7130     | FedMef: Towards Memory-efficient Federated Dynamic  Pruning  |
+| 12291    | An Aggregation-Free Federated Learning for Tackling  Data Heterogeneity |
+| 13655    | DiPrompT: Disentangled Prompt Tuning for Multiple  Latent Domain Generalization in Federated Learning |
+| 15367    | Byzantine-robust Decentralized Federated Learning via  Dual-domain Clustering and Trust Bootstrapping |
