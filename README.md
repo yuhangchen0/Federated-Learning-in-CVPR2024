@@ -2,6 +2,20 @@
 
 <img src="https://media.icml.cc/Conferences/CVPR2024/img/homepage_image.jpg" style="width:33%;">
 
+Hi there! I'm Yuhang, and I'm thrilled to announce that I will be attending CVPR 2024 and giving a poster presentation on the morning of 20th June. 
+
+The first paper on the following list is the one I'll be presenting. I am really looking forward to discussing our work and exchanging ideas with all of you! 
+
+Feel free to reach out to me via email or WeChat if you'd like to connect before or during the conference. I can't wait to meet you and explore exciting collaborations! 
+
+Email: yhchen0@whu.edu.cn
+
+WeChat: 
+
+<img src=".assets/wechat-qrcode.jpg" style="width:33%;">
+
+
+
 #### Fair Federated Learning under Domain Skew with Local Consistency and Domain Diversity
 
 > Yuhang Chen, Wenke Huang, Mang Ye
