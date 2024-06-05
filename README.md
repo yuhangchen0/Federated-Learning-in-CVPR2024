@@ -12,9 +12,7 @@ Email: yhchen0@whu.edu.cn
 
 WeChat: 
 
-<img src=".assets/wechat-qrcode.jpg" style="width:33%;">
-
-
+<img src=".assets/wechat-qrcode.jpg" style="width:20%;">
 
 #### Fair Federated Learning under Domain Skew with Local Consistency and Domain Diversity
 
