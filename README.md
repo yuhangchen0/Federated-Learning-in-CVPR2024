@@ -4,7 +4,7 @@
 
 Hi there! I'm Yuhang, and I'm thrilled to announce that **I will be attending CVPR 2024 and giving a poster presentation** on the morning of 20th June. [Click here to see the CVPR2024 FL Poster Schedule](#cvpr2024-fl-poster-schedule)
 
-The first paper on the following list is the one I'll be presenting. I am really looking forward to discussing our work and exchanging ideas with all of you! 
+The first paper on the following list is the one I'll be presenting. I am really looking forward to discussing our work and exchanging ideas with you! 
 
 **Feel free to reach out to me via email or WeChat** if you'd like to connect before or during the conference. I can't wait to meet you and explore exciting collaborations! 
 
@@ -13,6 +13,8 @@ Email: yhchen0@whu.edu.cn
 WeChat: 
 
 <img src=".assets/wechat-qrcode.jpg" style="width:20%;">
+
+## Accepted FL Paper in CVPR2024
 
 #### Fair Federated Learning under Domain Skew with Local Consistency and Domain Diversity
 
@@ -30,9 +32,10 @@ WeChat:
 >  Xiyuan Yang, Wenke Huang, Mang Ye
 
 * Paper: 
-* Code: 
+* Code: https://github.com/xiyuanyang45/FedAS
 * <details>
   <summary>Abstract (Click to expand):</summary>
+      Personalized Federated Learning (PFL) is primarily designed to provide customized models for each client to better fit the non-iid distributed client data, which is a inherent challenge in Federated Learning. However, current PFL methods suffer from inconsistencies in both intra-client and inter-client levels: 1) The intra-client inconsistency stems from the asynchronous update strategy for personalized and shared parameters. In PFL, clients update their shared parameters to communicate and learn from others, while keeping personalized parts unchanged, leading to poor coordination between these two components. 2) The Inter-client inconsistency arises from “stragglers” - inactive clients that communicate and train with the server less frequently. This results in their undetrained personalized models and impedes the collaborative training stage for other clients. In this paper, we present a novel PFL framework named FedAS, which uses Federated Parameter-Alignment and Client-Synchronization to overcome above challenges. Initially, we enhance the localization of global parameters by infusing them with local insights. We make the shared parts learn from previous model, thereby increasing their local relevance and reducing the impact of parameter inconsistency. Furthermore, we design a robust aggregation method to mitigate the impact of stragglers by preventing the incorporation of their under-trained knowledge into aggregated model. Experimental results on Cifar10 and Cifar100 validate the effectiveness of our FedAS in achieving better performance and robustness against data heterogeneity.
   </details>
 #### Federated Online Adaptation for Deep Stereo
 
